@@ -1,0 +1,1 @@
+git clone https://dev-clouddeveloper-michael-crossingpaths-be.scm.s1.umbraco.io/d286754b-e80a-41c6-8610-c0bdd618505f.git MyCloudSite.Web
