@@ -7,8 +7,8 @@ namespace MyCloudSite.Core
     {
         public static IReadOnlyList<Repository> GetRepositories(string organisation)
         {
-            var client = new GitHubClient(new ProductHeaderValue("my-cool-app"));
-            return client.Repository.GetAllForOrg(organisation).Result;
+            var client1 = new GitHubClient(new ProductHeaderValue("my-cool-app"));
+            return client1.Repository.GetAllForOrg(organisation).Result;
         }
     }
 }
